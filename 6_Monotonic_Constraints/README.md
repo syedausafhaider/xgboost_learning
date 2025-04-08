@@ -1,12 +1,3 @@
-# Save the entire markdown content into a single .md file and provide it for download
-
-readme_md_path = "/mnt/data/README.md"
-
-with open(readme_md_path, "w") as f:
-    f.write("""# XGBoost Titanic Survival Prediction with Monotonic Constraints
-
-This repository demonstrates how I enforced **monotonic constraints** in XGBoost to align the model with domain knowledge. For example, I ensured that higher Fare values have a positive relationship with survival probability. Below, I explain each step in detail.
-
 ---
 
 ## 🧠 Overview
